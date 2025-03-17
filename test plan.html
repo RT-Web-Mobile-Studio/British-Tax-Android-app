@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>British Tax App Development Roadmap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>App Development Roadmap</h1>
+            <p>A 3-Month Plan for Launching a Stable, Modern, and Well-Structured App</p>
+        </div>
+    </header>
+
+    <section id="overview" class="container">
+      <h2>Overview</h2>
+      <div class="goals-list">
+            <div class="goal">
+                <img src="icons/stability.svg" alt="Stability Icon">
+                <h3>Stability</h3>
+                <p>Eliminate critical bugs, prevent crashes, and ensure a solid foundation.</p>
+            </div>
+            <div class="goal">
+            <img src="icons/ui-ux.svg" alt="UI/UX Icon">
+                <h3>Modern UI/UX</h3>
+                <p>Enhance the user experience with improved design and usability.</p>
+            </div>
+            <div class="goal">
+              <img src="icons/code-quality.svg" alt="Code Quality Icon">
+                <h3>Code Quality</h3>
+                <p>Implement a robust architecture for maintainability and scalability.</p>
+            </div>
+              <div class="goal">
+                  <img src="icons/publication.svg" alt="Publication Icon">
+                  <h3>Publication</h3>
+                  <p>Meet all requirements for successful Google Play Store release.</p>
+              </div>
+              <div class="goal">
+                <img src="icons/new-features.svg" alt="New Features Icon">
+                <h3>New Features</h3>
+                <p>Add new functionality to expand app's capabilities.</p>
+            </div>
+          </div>
+    </section>
+
+    <section id="phases">
+        <div class="container">
+          <h2>Project Phases</h2>
+          <div class="timeline">
+              <div class="phase" data-phase="1">
+                  <h3>Phase 1: Analysis & Planning (Sprint 1-2)</h3>
+                    <ul>
+                        <li>Access code & tools (GitHub, CI/CD, Canva/Miro)</li>
+                        <li>Integrate Firebase Crashlytics for early error monitoring</li>
+                        <li>Technical audit (bug list, UI issues, architecture review, SonarQube)</li>
+                        <li>Planning (Prioritize tasks with Adam, risk assessment)</li>
+                    </ul>
+                      <p class="outcome">Outcome: Risk assessment document, roadmap, Firebase setup</p>
+                </div>
+              <div class="phase" data-phase="2">
+                  <h3>Phase 2: Stabilization (Sprint 3-4)</h3>
+                    <ul>
+                        <li>Fix critical bugs (crashes, major feature blocks)</li>
+                        <li>Unit tests for key functions (70% coverage target)</li>
+                        <li>Basic refactoring (ViewModel, Dependency Injection with Hilt/Dagger)</li>
+                        <li>UI Quick Wins (obvious design fixes, loading/error states)</li>
+                      </ul>
+                       <p class="outcome">Outcome: Stable app version with basic architecture</p>
+
+                </div>
+                <div class="phase" data-phase="3">
+                    <h3>Phase 3: Architecture & UI Enhancement (Sprint 5-6)</h3>
+                        <ul>
+                            <li>Improve architecture (Clean Architecture for core modules)</li>
+                            <li>Code layering: data, domain, presentation</li>
+                            <li>Gradual UI Redesign (update key components & styles, fewer screens in Compose)</li>
+                            <li>Data optimization (caching, pagination)</li>
+                        </ul>
+                    <p class="outcome"> Outcome: App with structured code and improved UI</p>
+                </div>
+                 <div class="phase" data-phase="4">
+                    <h3>Phase 4: New Feature Development (Sprint 7-10)</h3>
+                        <ul>
+                            <li>Develop and integrate new features (as prioritized)</li>
+                            <li>Unit and integration tests for new features</li>
+                            <li>Regular testing and feedback for iterative improvement</li>
+                        </ul>
+                    <p class="outcome"> Outcome: App with integrated new features, ready for testing</p>
+                </div>
+                <div class="phase" data-phase="5">
+                  <h3>Phase 5: Testing, Optimization & Publication (Sprint 11-12)</h3>
+                      <ul>
+                          <li>Extensive Testing (UI tests, integration tests, beta testing)</li>
+                          <li>Performance Optimization (Android Profiler, reduce launch time)</li>
+                          <li>Security Review (vulnerability checks, API key protection)</li>
+                          <li>Publication preparation and deployment to Google Play Store</li>
+                      </ul>
+                    <p class="outcome">Outcome: App published in the store! 🚀</p>
+                </div>
+          </div>
+      </div>
+    </section>
+
+    <section id="timeline-section" class="container">
+        <h2>Timeline Breakdown (4 days/week)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sprint</th>
+                    <th>Phase</th>
+                    <th>Main Tasks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1-2</td>
+                    <td>Analysis</td>
+                    <td>Code Audit, Planning, Priority Alignment, Integrating Firebase Analytics and Crashlytics, CI/CD</td>
+                </tr>
+                <tr>
+                    <td>3-4</td>
+                    <td>Stabilization</td>
+                    <td>Bug Fixing, Basic Refactoring</td>
+                </tr>
+                <tr>
+                    <td>5-6</td>
+                    <td>Architecture/UI</td>
+                    <td>Gradual Architecture & UI Improvements</td>
+                </tr>
+                 <tr>
+                    <td>7-10</td>
+                    <td>New Features</td>
+                    <td>New Feature Development & Integration</td>
+                </tr>
+              <tr>
+                    <td>11-12</td>
+                    <td>Publication</td>
+                    <td>Testing, Optimization, Deployment</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+   <section id="communication" class="container">
+        <h2>Communication & Collaboration</h2>
+        <div class="communication-points">
+            <div class="communication-item">
+                <img src="icons/weekly-demo.svg" alt="Weekly Demos Icon">
+                <h3>Weekly Demos</h3>
+                <p>Showcase progress every Friday.</p>
+            </div>
+            <div class="communication-item">
+                <img src="icons/kanban.svg" alt="Kanban Board Icon">
+                <h3>Kanban Board</h3>
+                <p>Use GitHub Projects/Trello to track tasks and progress.</p>
+            </div>
+        </div>
+   </section>
+
+   <section id="risks" class="container">
+    <h2>Risk Management</h2>
+        <div class="risks-list">
+            <ul>
+               <li>Allocate extra time for code review if needed.</li>
+                <li>Google Play might reject the app due to minor errors – allow 3-4 days for fixes.</li>
+            </ul>
+    </div>
+    </section>
+
+     <section id="post-launch" class="container">
+            <h2>Continuous Monitoring & Updates</h2>
+                <div class="post-launch-list">
+                  <ul>
+                    <li>Utilize Firebase Crashlytics for ongoing error monitoring and reporting.</li>
+                    <li>Plan for regular app updates every 2-4 weeks to address feedback and introduce enhancements.</li>
+                  </ul>
+                </div>
+        </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Roman Tsisyk for App Development Project</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#faf5f8" stroke="#7b1fa2" stroke-width="4"/>
+  
+  <!-- Book/publication base -->
+  <path d="M50 60 L50 140 C50 145, 55 150, 60 150 L150 150 L150 60 L60 60 C55 60, 50 65, 50 70 Z" fill="#ffffff" stroke="#7b1fa2" stroke-width="3"/>
+  
+  <!-- Book spine -->
+  <path d="M60 60 L60 150" fill="none" stroke="#7b1fa2" stroke-width="2" stroke-dasharray="3,2"/>
+  
+  <!-- Pages edge -->
+  <path d="M150 60 L150 150 C140 145, 140 145, 130 150 C120 155, 110 155, 100 150 C90 145, 80 145, 70 150 L70 60" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  
+  <!-- Text lines -->
+  <rect x="80" y="75" width="60" height="3" rx="1" ry="1" fill="#9c27b0"/>
+  <rect x="80" y="85" width="50" height="3" rx="1" ry="1" fill="#9c27b0"/>
+  <rect x="80" y="95" width="55" height="3" rx="1" ry="1" fill="#9c27b0"/>
+  <rect x="80" y="105" width="45" height="3" rx="1" ry="1" fill="#9c27b0"/>
+  
+  <!-- Document icon -->
+  <rect x="110" y="115" width="20" height="25" rx="2" ry="2" fill="#e1bee7" stroke="#7b1fa2" stroke-width="1"/>
+  <path d="M115 122 L125 122 M115 127 L125 127 M115 132 L120 132" fill="none" stroke="#7b1fa2" stroke-width="1"/>
+  
+  <!-- Pen -->
+  <path d="M90 130 L75 125 L80 120 L95 125 Z" fill="#7b1fa2"/>
+  <path d="M95 125 L115 105" fill="none" stroke="#7b1fa2" stroke-width="2"/>
+  
+  <!-- Text -->
+  <text x="100" y="175" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#7b1fa2">PUBLICATION</text>
+</svg>

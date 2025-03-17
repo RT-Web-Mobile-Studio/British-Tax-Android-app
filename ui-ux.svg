@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#f0f4f8" stroke="#4a6fa5" stroke-width="4"/>
+  
+  <!-- Device frame -->
+  <rect x="50" y="40" width="100" height="120" rx="8" ry="8" fill="#ffffff" stroke="#4a6fa5" stroke-width="3"/>
+  
+  <!-- Screen area -->
+  <rect x="55" y="50" width="90" height="70" rx="4" ry="4" fill="#e1ebf7"/>
+  
+  <!-- UI Elements -->
+  <!-- Navigation bar -->
+  <rect x="55" y="50" width="90" height="12" rx="2" ry="2" fill="#4a6fa5"/>
+  
+  <!-- Menu items -->
+  <circle cx="63" cy="56" r="3" fill="#ffffff"/>
+  <rect x="73" y="53" width="15" height="6" rx="2" ry="2" fill="#ffffff"/>
+  <rect x="93" y="53" width="15" height="6" rx="2" ry="2" fill="#ffffff"/>
+  <rect x="113" y="53" width="15" height="6" rx="2" ry="2" fill="#ffffff"/>
+  
+  <!-- Content blocks -->
+  <rect x="60" y="70" width="30" height="20" rx="2" ry="2" fill="#ffffff" stroke="#4a6fa5" stroke-width="1"/>
+  <rect x="95" y="70" width="45" height="10" rx="2" ry="2" fill="#ffffff" stroke="#4a6fa5" stroke-width="1"/>
+  <rect x="95" y="85" width="45" height="10" rx="2" ry="2" fill="#ffffff" stroke="#4a6fa5" stroke-width="1"/>
+  
+  <!-- Button -->
+  <rect x="75" y="100" width="50" height="12" rx="6" ry="6" fill="#5d9cec"/>
+  
+  <!-- UX Flow lines -->
+  <path d="M70 130 C 80 150, 120 150, 130 130" fill="none" stroke="#ff7c7c" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="70" cy="130" r="5" fill="#ff7c7c"/>
+  <circle cx="130" cy="130" r="5" fill="#ff7c7c"/>
+  
+  <!-- Text -->
+  <text x="100" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#4a6fa5">UI/UX</text>
+</svg>

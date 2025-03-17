@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#f5f8f5" stroke="#2e7d32" stroke-width="4"/>
+  
+  <!-- Code brackets -->
+  <path d="M60 70 L40 100 L60 130" fill="none" stroke="#2e7d32" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M140 70 L160 100 L140 130" fill="none" stroke="#2e7d32" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Code lines -->
+  <rect x="70" y="85" width="60" height="5" rx="2" ry="2" fill="#9ccc65"/>
+  <rect x="70" y="100" width="40" height="5" rx="2" ry="2" fill="#9ccc65"/>
+  <rect x="70" y="115" width="50" height="5" rx="2" ry="2" fill="#9ccc65"/>
+  
+  <!-- Checkmark for quality -->
+  <circle cx="130" cy="65" r="15" fill="#4caf50" fill-opacity="0.2" stroke="#4caf50" stroke-width="2"/>
+  <path d="M122 65 L128 71 L138 61" fill="none" stroke="#4caf50" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Magnifying glass -->
+  <circle cx="70" cy="140" r="10" fill="none" stroke="#2e7d32" stroke-width="3"/>
+  <path d="M77 147 L85 155" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Stars for excellence -->
+  <path d="M130 140 L133 146 L140 147 L135 152 L136 159 L130 156 L124 159 L125 152 L120 147 L127 146 Z" fill="#ffd54f"/>
+  
+  <!-- Text -->
+  <text x="100" y="175" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2e7d32">CODE QUALITY</text>
+</svg>
